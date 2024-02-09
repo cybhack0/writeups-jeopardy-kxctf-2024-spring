@@ -1,0 +1,1 @@
+The flag was sent to the bot as the first secret

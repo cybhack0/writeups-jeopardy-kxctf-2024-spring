@@ -1,0 +1,29 @@
+version: "3.3"
+services:
+
+  db:
+    restart: always
+    image: postgres:15.2
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=PASSWD
+      - POSTGRES_DB=telebot
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+  app :
+    build: app
+    environment:
+      DB_USER: postgres
+      DB_PASSWORD: PASSWD
+      DB_NAME: telebot
+      DB_HOST: db
+      DP_PORT: 5432
+      TG_TOKEN: 
+  cleaner:
+    build: cleaner
+    environment:
+      DB_USER: postgres
+      DB_PASSWORD: PASSWD
+      DB_NAME: telebot
+      DB_HOST: db
+      DP_PORT: 5432
