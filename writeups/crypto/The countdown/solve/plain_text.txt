@@ -1,0 +1,1 @@
+The Counter(CTR)kxctf{T8M4nyEnc} mode is a confidentiality mode that features the application of the forward cipher to a set of input blocks, called counters, to produce a sequence of output blocks that are exclusive-ORed with the plaintext to produce the ciphertext, and vice versa.
