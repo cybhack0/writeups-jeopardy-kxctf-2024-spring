@@ -18,6 +18,8 @@
 | **[sick format](writeups/pwn/sick%20format)** | pwn | [@spl4ff](https://github.com/spl4ff) |
 | **[Checher](writeups/reverse/Checher)** | reverse | [@spl4ff](https://github.com/spl4ff) |
 | **[mc Dos](writeups/reverse/mc%20Dos)** | reverse | [@spl4ff](https://github.com/spl4ff) |
+| **[Gammator X](writeups/crypto/Gammator%20X)** | crypto | [@PrInersudio](https://github.com/PrInersudio) |
+| **[The countdown](writeups/crypto/The%20countdown)** | crypto | [@PrInersudio](https://github.com/PrInersudio) |
 
 ## Наши соцсети
 - [CTFTime](https://ctftime.org/team/278998)
