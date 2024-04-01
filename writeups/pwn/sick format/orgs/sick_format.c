@@ -10,6 +10,22 @@ void greeting()
   fflush(stdout);
 }
 
+void lol(char *str)
+{
+  int shift = 3; 
+    char tablo[256]; 
+    for (int i = 0; i < 256; i++) {
+        tablo[i] = (char)((i + 10) % 256);
+    }
+
+    for (int i = 0; str[i]; i++) {
+        str[i] = str[i] + shift;
+    }
+
+    for (int i = 0; str[i]; i++) {
+        str[i] = tablo[(int)str[i]];
+    }
+}
 int changeme;
 
 void havefun()
@@ -19,15 +35,17 @@ void havefun()
   fgets(buff, sizeof(buff), stdin);
   printf(buff);
   fflush(stdout);
-
-  if(changeme == 228) {
+ 
+  if(changeme == 69) {
       char* flag = getenv("FLAG");
-      printf("Good... really good... %s\n",flag);
+      printf("Nice, you got this: %s\n", flag);
       fflush(stdout);
   } else {
-      printf("No way... %d\n", changeme);
+      printf("No no no no, bruh... %d\n", changeme);
       fflush(stdout);
   }
+
+  lol("chechik vispalsya, a ti?");
 }
 
 int main(int argc, char **argv)
