@@ -3,9 +3,9 @@
 #include <stdio.h>
 #include <string.h>
 
-void flag() {
+void dont_call_me() {
     char *flag = getenv("FLAG");
-    printf("Winner winner chicken dinner:  %s\n", flag);
+    printf("Ohhh, close ur eyes... U shouldn't see this %s\n", flag);
     fflush(stdout);
 }
 
@@ -14,5 +14,4 @@ int main (int argc, char **argv)
     char buffer[64];
     
     gets(buffer);
-
 }
