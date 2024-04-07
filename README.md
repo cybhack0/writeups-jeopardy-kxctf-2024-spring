@@ -12,12 +12,12 @@
 | Название | Категория | Автор | 
 |----------|-----------|-------|
 | **[Vovochka's secret](writeups/misc/Vovochka's_secret)** | misc | [@FrakenboK](https://github.com/FrakenboK) |
-| **[slavyanskyi_zajim](writeups/misc/velikorusiy%20obstrel)** | misc | [@spl4ff](https://github.com/spl4ff) |
-| **[v(a)ba laba dab dab](writeups/misc/vbankcenter)** | misc | [@spl4ff](https://github.com/spl4ff) |
-| **[tired of nulls](writeups/pwn/zeros%20or%20nulls)** | pwn | [@spl4ff](https://github.com/spl4ff) |
-| **[sick format](writeups/pwn/not%20my%20format)** | pwn | [@spl4ff](https://github.com/spl4ff) |
-| **[Checher](writeups/reverse/evreser)** | reverse | [@spl4ff](https://github.com/spl4ff) |
-| **[mc Dos](writeups/reverse/Dosya)** | reverse | [@spl4ff](https://github.com/spl4ff) |
+| **[velikorusiy obstrel](writeups/misc/velikorusiy%20obstrel)** | misc | [@spl4ff](https://github.com/spl4ff) |
+| **[vbankcenter](writeups/misc/vbankcenter)** | misc | [@spl4ff](https://github.com/spl4ff) |
+| **[zeros or nulls](writeups/pwn/zeros%20or%20nulls)** | pwn | [@spl4ff](https://github.com/spl4ff) |
+| **[not my format](writeups/pwn/not%20my%20format)** | pwn | [@spl4ff](https://github.com/spl4ff) |
+| **[evreser](writeups/reverse/evreser)** | reverse | [@spl4ff](https://github.com/spl4ff) |
+| **[Dosya](writeups/reverse/Dosya)** | reverse | [@spl4ff](https://github.com/spl4ff) |
 | **[Gammator X](writeups/crypto/Gammator%20X)** | crypto | [@PrInersudio](https://github.com/PrInersudio) |
 | **[The countdown](writeups/crypto/The%20countdown)** | crypto | [@PrInersudio](https://github.com/PrInersudio) |
 | **[Caesar is alive!!!](writeups/crypto/Caesar%20is%20alive!!!)** | crypto | [@moltensock](https://github.com/moltensock) |
