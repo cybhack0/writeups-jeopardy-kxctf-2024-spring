@@ -22,6 +22,7 @@
 | **[The countdown](writeups/crypto/The%20countdown)** | crypto | [@PrInersudio](https://github.com/PrInersudio) |
 | **[Caesar is alive!!!](writeups/crypto/Caesar%20is%20alive!!!)** | crypto | [@moltensock](https://github.com/moltensock) |
 | **[Gosdep Secrets](writeups/reverse/Gosdep%20Secrets)** | reverse | [@ratadogartem](https://github.com/ratadogartem) |
+| **[Wait to find out](writeups/reverse/Wait%20to%20find%20out)** | reverse | [@s-Fl](https://github.com/s-Fl) |
 
 ## Наши соцсети
 - [CTFTime](https://ctftime.org/team/278998)
