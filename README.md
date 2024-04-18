@@ -5,8 +5,8 @@
 Наш [ctftime](https://ctftime.org/event/2344)
 
 ## Результаты
-![Graph](graph.png)
-![Board](image.png)
+![Graph](img/graph.png)
+![Board](img/board.png)
 
 ## Райтапы
 
