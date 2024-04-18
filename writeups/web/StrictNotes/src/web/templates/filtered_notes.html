@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CybHack</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="service-name">Strict Notes</div>
+            <ul class="nav-links">
+                <li><a href="/public-notes">Public Notes</a></li>
+                <li><a href="/my">My Notes</a></li>
+                <li><a href="/add_note">Create Note</a></li>
+                <li><a href="/logout">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="table-container" id="note">
+        <h1>{{ title }}</h1>
+        {% if notes: %}
+
+        <table id="notesTable">
+            <thead>
+                <tr>
+                    {% for key in notes[0]: %}
+                        <td>{{ key }}</td>
+                    {% endfor %}
+                </tr>
+            </thead>
+            {% for note in notes: %}
+            <tbody>
+                <tr>
+                    {% for key in note: %}
+                        {% if safe and key in safe: %}
+                            <td>{{ note[key]|safe }}</td>
+                        {% else %}
+                            <td>{{ note[key] }}</td>
+                        {% endif %}
+                    {% endfor %}
+                </tr>
+            </tbody>
+            {% endfor %}
+        </table>
+        {% else %}
+
+        <p>No such notes</p>
+
+        {% endif%}
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p><a href="https://t.me/kibhackctf">Contact CybHack</a></p>
+        </div>
+    </footer>
+</body>
+<script nonce="{{ nonce }}" src="/static/js/script.js"></script>
+</html>

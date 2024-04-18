@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CybHack</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="service-name">Strict Notes</div>
+            <ul class="nav-links">
+                <li><a href="/public-notes">Public Notes</a></li>
+                <li><a href="/my">My Notes</a></li>
+                <li><a href="/add_note">Create Note</a></li>
+                <li><a href="/login">Login</a></li>
+                <li><a href="/register">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="table-container" id="note">
+        <h1>{{ settings['title'] }}</h1>
+        {% if notes: %}
+
+        <table id="notesTable">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Title</th>
+                    <th>Time Created</th>
+                </tr>
+            </thead>
+            {% for note in notes: %}
+            <tbody>
+                <tr>
+                    <td><a class="plain-link" href="/{{ settings['next_handler'] }}?id={{ note['id'] }}">{{ note['id'] }}</a></td>
+                    <td>{{note['title']}}</td>
+                    <td>{{note['time_creation']}}</td>
+                </tr>
+            </tbody>
+            {% endfor %}
+        </table>
+        {% else %}
+
+        <p>No such notes</p>
+
+        {% endif%}
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p><a href="https://t.me/kibhackctf">Contact CybHack</a></p>
+        </div>
+    </footer>
+</body>
+<script nonce="{{ nonce }}" src="/static/js/script.js"></script>
+</html>

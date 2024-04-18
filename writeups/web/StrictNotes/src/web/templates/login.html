@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CybHack</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="service-name">Strict Notes</div>
+            <ul class="nav-links">
+                <li><a href="/public-notes">Public Notes</a></li>
+                <li><a href="/login">Login</a></li>
+                <li><a href="/register">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="login-form-container">
+            <form class="login-form" id="form" action="/login" method="post">
+                <h1>Login</h1>
+                <div class="input-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p><a href="https://t.me/kibhackctf">Contact CybHack</a></p>
+        </div>
+    </footer>
+</body>
+<script nonce="{{ nonce }}" src="/static/js/script.js"></script>
+</html>

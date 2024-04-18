@@ -1,0 +1,196 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #2C2F33;
+    color: #FFF;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #23272A;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.service-name {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #7289DA;
+}
+
+.login-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.login-form {
+    background-color: #40444B;
+    padding: 2em;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.login-form h1 {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 1em;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: .5em;
+}
+
+.input-group input {
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #99AAB5;
+    color: #23272A;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #7289DA;
+    color: #FFF;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #5B6E99;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px; 
+    background-color: #23272A;
+    text-align: center;
+    padding: 1em 0;
+}
+/*--------------------------------------------*/
+
+input[type="text"],
+input[type="password"],
+textarea {
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #99AAB5;
+    color: #23272A;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/*--------------------------------------------*/
+
+.table-container {
+    width: 90%;
+    margin: 2em auto;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2em 0;
+    background-color: #99AAB5;
+}
+
+table thead {
+    background-color: #7289DA;
+}
+
+table thead th {
+    color: #FFF;
+    padding: 10px;
+    text-align: left;
+}
+
+table tbody td {
+    color: #23272A;
+    padding: 10px;
+    border-bottom: 1px solid #7289DA;
+}
+
+/*----------------------------------------*/
+
+.search-containe{
+    align-items: center;
+}
+
+.search-input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    width: calc(100% - 24px);
+    box-sizing: border-box;
+    background-color: #99AAB5;
+    color: #23272A;
+}
+
+.search-btn {
+    width: 10%;
+}
+
+/*----------------------------------------*/
+
+.error-text {
+    color: red;
+    padding-top: 10px;
+}
+
+.message-text {
+    color: green;
+    padding-top: 10px;
+}
+
+/*----------------------------------------*/
+
+.plain-link {
+    color: black; 
+    text-decoration: none; 
+}
+
+.plain-link:hover {
+    text-decoration: none;
+}
