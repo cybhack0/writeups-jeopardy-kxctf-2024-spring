@@ -113,4 +113,6 @@ resp = make_response(render_template("filtered_notes.html", nonce=nonce_value, s
 
 Таск решен)
 
+Эксплойт на второй анинтендед, написанный одной из команда [прикладываю рядом](exploit-unintended2/exploit.py)
+
 ## Powered by [FrakenboK](https://github.com/FrakenboK)
