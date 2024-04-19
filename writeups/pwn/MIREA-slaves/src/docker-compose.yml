@@ -1,0 +1,9 @@
+version: "3.3"
+
+services:
+  pwn:
+    build: .
+    ports:
+      - "1737:1737"
+    environment: 
+      - FLAG=kxctf{}
