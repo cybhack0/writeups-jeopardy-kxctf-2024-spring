@@ -29,7 +29,8 @@
 | **[Caesar is alive!!!](writeups/crypto/Caesar%20is%20alive!!!)** | crypto | [@moltensock](https://github.com/moltensock) |
 | **[just qr lol](writeups/stegano/just%20qr%20lol)** | stegano | [@moltensock](https://github.com/moltensock) |
 | **[Strict Notes](writeups/web/StrictNotes)** | web | [@FrakenboK](https://github.com/FrakenboK) |
-
+| **[KibXakProxy](writeups/web/KibXakProxy)** | web | [@lir1ka](https://github.com/lir1ka) |
+| **[Microservice Shitlord](writeups/web/MicroserviceShitlord.md)** | web | [@423locked](https://github.com/423locked) |
 
 ## Наши соцсети
 - [CTFTime](https://ctftime.org/team/278998)
