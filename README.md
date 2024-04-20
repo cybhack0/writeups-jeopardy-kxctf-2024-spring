@@ -24,6 +24,7 @@
 | **[Dosya](writeups/reverse/Dosya)** | reverse | [@spl4ff](https://github.com/spl4ff) |
 | **[Gosdep Secrets](writeups/reverse/Gosdep%20Secrets)** | reverse | [@ratadogartem](https://github.com/ratadogartem) |
 | **[Wait to find out](writeups/reverse/Wait%20to%20find%20out)** | reverse | [@s-Fl](https://github.com/s-Fl) |
+| **[Friend's joke](writeups/reverse/Friend's%20joke/)** | reverse | [@gavrigd](https://github.com/gavrigd) |
 | **[Gammator X](writeups/crypto/Gammator%20X)** | crypto | [@PrInersudio](https://github.com/PrInersudio) |
 | **[The countdown](writeups/crypto/The%20countdown)** | crypto | [@PrInersudio](https://github.com/PrInersudio) |
 | **[Caesar is alive!!!](writeups/crypto/Caesar%20is%20alive!!!)** | crypto | [@moltensock](https://github.com/moltensock) |
@@ -31,6 +32,9 @@
 | **[Strict Notes](writeups/web/StrictNotes)** | web | [@FrakenboK](https://github.com/FrakenboK) |
 | **[KibXakProxy](writeups/web/KibXakProxy)** | web | [@lir1ka](https://github.com/lir1ka) |
 | **[Microservice Shitlord](writeups/web/MicroserviceShitlord.md)** | web | [@423locked](https://github.com/423locked) |
+| **[Fiery animal](writeups/Osint/Fiery%20animal/)** | osint | [@gavrigd](https://github.com/gavrigd) |
+| **[Gofman](writeups/Osint/Gofman/)** | osint | [@gavrigd](https://github.com/gavrigd) |
+| **[Mountain in porthole](writeups/Osint/Mountain%20in%20porthole/)** | osint | [@gavrigd](https://github.com/gavrigd) |
 
 ## Наши соцсети
 - [CTFTime](https://ctftime.org/team/278998)
