@@ -31,6 +31,7 @@
 | **[just qr lol](writeups/stegano/just%20qr%20lol)** | stegano | [@moltensock](https://github.com/moltensock) |
 | **[Strict Notes](writeups/web/StrictNotes)** | web | [@FrakenboK](https://github.com/FrakenboK) |
 | **[KibXakProxy](writeups/web/KibXakProxy)** | web | [@lir1ka](https://github.com/lir1ka) |
+| **[Noter](writeups/web/Noter)** | web | [@fedoik](https://github.com/fedoik) |
 | **[Microservice Shitlord](writeups/web/MicroserviceShitlord.md)** | web | [@423locked](https://github.com/423locked) |
 | **[Fiery animal](writeups/Osint/Fiery%20animal/)** | osint | [@gavrigd](https://github.com/gavrigd) |
 | **[Gofman](writeups/Osint/Gofman/)** | osint | [@gavrigd](https://github.com/gavrigd) |
