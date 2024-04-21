@@ -23,6 +23,7 @@
 | **[Gosdep Secrets](writeups/reverse/Gosdep%20Secrets)** | reverse | [@ratadogartem](https://github.com/ratadogartem) |
 | **[Wait to find out](writeups/reverse/Wait%20to%20find%20out)** | reverse | [@s-Fl](https://github.com/s-Fl) |
 | **[Friend's joke](writeups/reverse/Friend's%20joke/)** | reverse | [@gavrigd](https://github.com/gavrigd) |
+| **[IT Market](writeups/reverse/IT%20Market/)** | reverse | [@FrakenboK](https://github.com/FrakenboK) |
 | **[Gammator X](writeups/crypto/Gammator%20X)** | crypto | [@PrInersudio](https://github.com/PrInersudio) |
 | **[The countdown](writeups/crypto/The%20countdown)** | crypto | [@PrInersudio](https://github.com/PrInersudio) |
 | **[Caesar is alive!!!](writeups/crypto/Caesar%20is%20alive!!!)** | crypto | [@moltensock](https://github.com/moltensock) |
@@ -34,6 +35,8 @@
 | **[Fiery animal](writeups/Osint/Fiery%20animal/)** | osint | [@gavrigd](https://github.com/gavrigd) |
 | **[Gofman](writeups/Osint/Gofman/)** | osint | [@Cezi28](https://github.com/Cezi28) |
 | **[Mountain in porthole](writeups/Osint/Mountain%20in%20porthole/)** | osint | [@gavrigd](https://github.com/gavrigd) |
+| **[FunnyGame](writeups/Osint/FunnyGame/)** | osint | [@lir1ka](https://github.com/lir1ka) |
+
 
 ## Наши соцсети
 - [CTFTime](https://ctftime.org/team/278998)
