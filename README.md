@@ -32,7 +32,7 @@
 | **[Noter](writeups/web/Noter)** | web | [@fedoik](https://github.com/fedoik) |
 | **[Microservice Shitlord](writeups/web/MicroserviceShitlord.md)** | web | [@423locked](https://github.com/423locked) |
 | **[Fiery animal](writeups/Osint/Fiery%20animal/)** | osint | [@gavrigd](https://github.com/gavrigd) |
-| **[Gofman](writeups/Osint/Gofman/)** | osint | [@gavrigd](https://github.com/gavrigd) |
+| **[Gofman](writeups/Osint/Gofman/)** | osint | [@Cezi28](https://github.com/Cezi28) |
 | **[Mountain in porthole](writeups/Osint/Mountain%20in%20porthole/)** | osint | [@gavrigd](https://github.com/gavrigd) |
 
 ## Наши соцсети
