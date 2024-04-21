@@ -15,8 +15,6 @@
 | **[Vovochka's secret](writeups/misc/Vovochka's_secret)** | misc | [@FrakenboK](https://github.com/FrakenboK) |
 | **[velikorusiy obstrel](writeups/misc/velikorusiy%20obstrel)** | misc | [@spl4ff](https://github.com/spl4ff) |
 | **[vbankcenter](writeups/misc/vbankcenter)** | misc | [@spl4ff](https://github.com/spl4ff) |
-| **[Jail Breaker](writeups/misc/Jail%20Breaker)** | misc/jail | [@spl4ff](https://github.com/spl4ff) |
-| **[Unjailed](writeups/misc/Unjailed)** | misc/jail | [@spl4ff](https://github.com/spl4ff) |
 | **[zeros or nulls](writeups/pwn/zeros%20or%20nulls)** | pwn | [@spl4ff](https://github.com/spl4ff) |
 | **[not my format](writeups/pwn/not%20my%20format)** | pwn | [@spl4ff](https://github.com/spl4ff) |
 | **[MIREA Slaves](writeups/pwn/MIREA-slaves/)** | pwn | [@FrakenboK](https://github.com/FrakenboK) |
