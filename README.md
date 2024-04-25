@@ -13,7 +13,7 @@
 | Название | Категория | Автор | 
 |----------|-----------|-------|
 | **[Vovochka's secret](writeups/misc/Vovochka's_secret)** | misc | [@FrakenboK](https://github.com/FrakenboK) |
-| **[velikorusiy obstrel](writeups/misc/velikorusiy%20obstrel)** | misc | [@spl4ff](https://github.com/spl4ff) |
+| **[velikorusiy obstrel](writeups/misc/velikorusiy_obstrel)** | misc | [@spl4ff](https://github.com/spl4ff) |
 | **[vbankcenter](writeups/misc/vbankcenter)** | misc | [@spl4ff](https://github.com/spl4ff) |
 | **[Secret message](writeups/misc/Secret%20Message)** | misc | [@Cezi28](https://github.com/Cezi28) |
 | **[zeros or nulls](writeups/pwn/zeros%20or%20nulls)** | pwn | [@spl4ff](https://github.com/spl4ff) |
